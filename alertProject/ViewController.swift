@@ -48,7 +48,7 @@ class ViewController: UIViewController {
             alerts(message: "passwords does not match",title:"error!")
         }
        else{
-        
+        alerts(message: "true", title: "success")
        }
     
     }
